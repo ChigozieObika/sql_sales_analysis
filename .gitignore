@@ -127,4 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-.raw_dataset
+raw_dataset
+.env
