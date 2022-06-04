@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 raw_dataset
 .env
+sales_df_sqlalchemy.pickle
+sales_df.pickle
