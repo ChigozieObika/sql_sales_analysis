@@ -53,11 +53,11 @@ class TopPerformers:
                     fontsize = 12, fontweight ='bold',
                     color ='red')
         if vs_rest:
-            plt.savefig(f'plots/Top_{self.n}_{param}_vs_rest.jpg')
             ax.set_title(f'Top {self.n} {param} vs rest',
             fontsize = 14, fontweight ='bold')
+            plt.savefig(f'plots/Top_{self.n}_{param}_vs_rest.jpg')
         else:
-            plt.savefig(f'plots/Top_{self.n}_{param}.jpg')
             ax.set_title(f'Top {self.n} {param}',
             fontsize = 14, fontweight ='bold')
+            plt.savefig(f'plots/Top_{self.n}_{param}.jpg')
         plt.show()
