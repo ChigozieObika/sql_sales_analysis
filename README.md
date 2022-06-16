@@ -37,6 +37,73 @@ The solution in this project uses SQL and python. The SQL generates most of the 
 
 ## [Summary of Results](#summary-of-results)
 
+Average Revenue for each Store
+  store_id   avg
+0    S0001  3.18
+1    S0002  2.12
+2    S0003  1.90
+3    S0004  1.37
+4    S0005  1.49
+
+Total Revenue by City
+  city_id         sum
+0    C001   223137.25
+1    C002   680987.33
+2    C003   103252.45
+3    C004  1027630.08
+4    C005   417360.83
+
+
+City with Maximum Revenue
+  city_id          sum
+0    C014  12760439.56
+
+Total Revenue by Store
+  store_id city_id        sum
+0    S0001    C031  847042.16
+1    S0002    C007  494121.62
+2    S0003    C014  132146.69
+3    S0004    C022  174120.06
+4    S0005    C001  108092.49
+
+Store with Maximum Revenue
+  store_id city_id         sum
+0    S0085    C014  2156037.86
+
+Total Revenue by Product
+  product_id       sum
+0      P0001  21128.44
+1      P0002   9776.39
+2      P0004   1631.29
+3      P0005  25408.62
+4      P0006   2550.17
+
+Product with Maximum Revenue
+  product_id         sum
+0      P0103  2670199.66
+
+Revenue by Product in Each Store
+  product_id store_id      sum
+0      P0001    S0001  1616.59
+1      P0001    S0002   577.25
+2      P0001    S0004    66.79
+3      P0001    S0008   129.45
+4      P0001    S0010   234.26
+
+Which product in which store has the maximum revenue
+  product_id store_id        sum
+0      P0103    S0097  278874.15
+
+Top 10 Store by Revenue
+![Top 10 Stores](plots/Top_10_stores.jpg)
+
+Top 10 Cities by Revenue
+![Top 10 Cities](plots/Top_10_cities.jpg)
+
+Top 20 Products by Revenue
+![Top 20 Products](plots/Top_20_products.jpg)
+
+
 ## [Limitation and Recommendations](#limitation-and-recommendations)
 
 ## [Contribution](#contribution)
