@@ -47,47 +47,64 @@ Average Revenue for each Store
 | 5 | S0005 | 1.49 |
 
 
-Total Revenue by City                 City with Maximum Revenue
-| S/N | city_id | sum |               | S/N | store_id | sum |
-| --- | :--      | --: |              | --- | :--      | --: |
-| 1 | C001 | 223137.25 |              | 1 | C014 | 12760439.56|
+Total Revenue by City                 
+| S/N | city_id | sum |               
+| --- | :--      | --: |              
+| 1 | C001 | 223137.25 |              
 | 2 | C002 | 680987.33 |
 | 3 | C003 | 103252.45 |
 | 4 | C004 | 1027630.08 |
 | 5 | C005 | 417360.83 |
 
+City with Maximum Revenue
+| S/N | store_id | sum |
+| --- | :--      | --: |
+| 1 | C014 | 12760439.56|
 
-Total Revenue by Store                Store with Maximum Revenue
-| S/N | store_id | city_id | avg |    | S/N | store_id | city_id | sum |
-| --- | :--      | :--     | --: |    | --- | :--      | :--     | --: |
-| 1 | S0001 | C031 | 847042.16 |      | 1 | S0085 | C014 | 2156037.86 |
+
+Total Revenue by Store                
+| S/N | store_id | city_id | avg |    
+| --- | :--      | :--     | --: |    
+| 1 | S0001 | C031 | 847042.16 |      
 | 2 | S0002 | C007 | 494121.62 |
 | 3 | S0003 | C014 | 132146.69 |
 | 4 | S0004 | C022 | 174120.06 |
 5    S0005    C001  108092.49
 
+Store with Maximum Revenue
+| S/N | store_id | city_id | sum |
+| --- | :--      | :--     | --: |
+| 1 | S0085 | C014 | 2156037.86 |
 
-Total Revenue by Product              Product with Maximum Revenue
-| S/N | product_id | sum |            | S/N | product_id | sum |
-| --- | :--        | --: |            | --- | :--        | --: |
-| 1 | P0001 | 21128.44 |              | 1 | P0103 | 2670199.66 |           
+
+Total Revenue by Product              
+| S/N | product_id | sum |            
+| --- | :--        | --: |            
+| 1 | P0001 | 21128.44 |                         
 | 2 | P0002 | 9776.39 |
 | 3 | P0004 | 1631.29 |
 | 4 | P0005 | 25408.62 |
 | 5 | P0006 | 2550.17 |
+
+Product with Maximum Revenue
+| S/N | product_id | sum |
+| --- | :--        | --: |
+| 1 | P0103 | 2670199.66 |
      
 
 Revenue by Product in Each Store
-  product_id store_id      sum
-0      P0001    S0001  1616.59
-1      P0001    S0002   577.25
-2      P0001    S0004    66.79
-3      P0001    S0008   129.45
-4      P0001    S0010   234.26
+| S/N | product_id | city_id | sum |    
+| --- | :--      | :--     | --: | 
+| 1 | P0001 | S0001 | 1616.59 |
+| 2 | P0001 | S0002 | 577.25 |
+| 3 | P0001 | S0004 | 66.79 |
+| 4 | P0001 | S0008 | 129.45 |
+| 5 | P0001 | S0010 | 234.26 |
 
 Which product in which store has the maximum revenue
-  product_id store_id        sum
-0      P0103    S0097  278874.15
+| S/N | product_id | city_id | sum |    
+| --- | :--      | :--     | --: | 
+| 1 | P0103 | S0097 | 278874.15 |
 
 Top 10 Store by Revenue
 ![Top 10 Stores](plots/Top_10_stores.jpg)
