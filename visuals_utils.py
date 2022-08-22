@@ -21,7 +21,7 @@ class TopPerformers:
                 ax.barh(self.top_df['city_id'], self.top_df['sum'])
             if param=='stores':
                 self.top_df.loc[len(self.df.index)]=[
-                    'rest_stores', 'N/A', sum_not_top_n
+                    'rest_stores', sum_not_top_n
                     ]
                 ax.barh(self.top_df['store_id'], self.top_df['sum'])
             if param=='products':
